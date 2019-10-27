@@ -502,6 +502,16 @@ section.fifth {
     transform: translate(-50%, 215%);
 }
 
+.programming-skills {
+    width: 500px;
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    margin-bottom: 70px;
+}
+
 .flip-card {
     perspective: 1000px;
 }
