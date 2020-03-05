@@ -1,325 +1,659 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio</title>
-    <link rel="icon" href="./img/imac.png" sizes="36x36" />
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./css/aos.css" />
-</head>
-<body>
-    <script src="./js/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-    
-    <header data-aos="fade-down">
-        <div class="my-nav container">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="#">Portfolio</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="icon fas fa-bars"></i>
-                </button>
-                
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link-hover nav-link" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link-hover nav-link" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link-hover nav-link" href="#">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link-hover nav-link" href="#">Skills</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link-hover nav-link" href="#">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link-shiny nav-link-nohover nav-link" href="#">Send email</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </header>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Portfolio</title>
+        <link rel="icon" href="./img/imac.png" sizes="36x36" />
+        <link rel="stylesheet" href="./css/bootstrap.min.css" />
+        <link rel="stylesheet" href="./style.css" />
+        <link rel="stylesheet" href="./css/aos.css" />
+    </head>
+    <body>
+        <script src="./js/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 
-    <main>
-        <section class="first">
-            <div class="container">
-                <div class="row row-first align-items-lg-center">
-                    <div data-aos-duration="700" data-aos="fade-right" class="col-12 col-lg-6">
-                        <h1 class="header-first">Matthew The <br/>
-                            <span class="txt-rotate" data-period="3000" data-rotate='["Developer", "Designer", "Creator"]'></span>
-                        </h1>
-                        <p class="paragraph-first">
-                            Hey, my name is Matthew and this is my portfolio page! I'm a computer science student and I love programming.
-                            Here you can find out something about me, my experience, skills and my projects.
-                        </p>
-                        <a class="link-shiny link-first" href="#">Get Started</a>
+        <header data-aos="fade-down">
+            <div class="my-nav container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="#">Portfolio</a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <i class="icon fas fa-bars"></i>
+                    </button>
+
+                    <div
+                        class="collapse navbar-collapse"
+                        id="navbarSupportedContent"
+                    >
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link-hover nav-link" href="#first"
+                                    >Home</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link-hover nav-link"
+                                    href="#second"
+                                    >About</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link-hover nav-link" href="#third"
+                                    >Projects</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link-hover nav-link" href="#fifth"
+                                    >Skills</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link-hover nav-link"
+                                    href="#fourth"
+                                    >Contact</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link-shiny nav-link-nohover nav-link"
+                                    href="#"
+                                    >Send email</a
+                                >
+                            </li>
+                        </ul>
                     </div>
-                    <div data-aos-duration="700" data-aos="fade-left" class="col-12 col-lg-6">
-                        <img class="img-fluid" src="./img/back.svg" alt="businessman">
-                    </div>
-                </div>
+                </nav>
             </div>
-        </section>
+        </header>
 
-        <section class="second">
-            <div class="container">
-                <div class="row">
-                    <div data-aos-duration="600" data-aos-offset="400" data-aos="flip-up" class="col-12 col-lg-6">
-                        <div class="card-one">
-                            <img class="image-card-one img-fluid" width="433" src="./img/code.svg" alt="launch">
-                            <h1 class="header-card-one">Who am I actually?</h1>
-                            <p class="paragraph-card-one">
-                                For now I live in Cracov, Poland. I study Computer Science on Jagiellonian University. 
-                                I've started programming when I was 16 and this passion survived to this day.
-                                I used to build things from scratch, now I do so, but using programming languages.
-                                I love take apart things and check out how they build.
+        <main>
+            <section id="first" class="first">
+                <div class="container">
+                    <div class="row row-first align-items-lg-center">
+                        <div
+                            data-aos-duration="700"
+                            data-aos="fade-right"
+                            class="col-12 col-lg-6"
+                        >
+                            <h1 class="header-first">
+                                Matthew The <br />
+                                <span
+                                    class="txt-rotate"
+                                    data-period="3000"
+                                    data-rotate='["Developer", "Designer", "Creator"]'
+                                ></span>
+                            </h1>
+                            <p class="paragraph-first">
+                                Hey, my name is Matthew and this is my portfolio
+                                page! I'm a computer science student and I love
+                                programming. Here you can find out something
+                                about me, my experience, skills and my projects.
                             </p>
-                            <a class="move link-card-one" href="#">Click for More <i class="fas fa-arrow-right"></i></a>
+                            <a class="link-shiny link-first" href="#second"
+                                >Get Started</a
+                            >
+                        </div>
+                        <div
+                            data-aos-duration="700"
+                            data-aos="fade-left"
+                            class="col-12 col-lg-6"
+                        >
+                            <img
+                                class="img-fluid"
+                                src="./img/back.svg"
+                                alt="businessman"
+                            />
                         </div>
                     </div>
-                    <div data-aos-duration="600" data-aos-offset="400" data-aos="flip-down" class="col-12 col-lg-6">
-                        <div class="card-two">
-                            <img class="image-card-two img-fluid" width="433" src="./img/developer.svg" alt="deal">
-                            <h1 class="header-card-two">What am I doing?</h1>
-                            <p class="paragraph-card-two">
-                                I love web development. I try to find out about every single aspect of this subject.
-                                I work with backend frameworks such as Express, Django, ASP.NET Core and fronted such as React.
-                                I may spent hours learning about new things connected to web and it's not boring me.
-                            </p>
-                            <a class="move link-card-two" href="#">Click for More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </section>
+
+            <section id="second" class="second">
+                <div class="container">
+                    <div class="row">
+                        <div
+                            data-aos-duration="600"
+                            data-aos-offset="400"
+                            data-aos="flip-up"
+                            class="col-12 col-lg-6"
+                        >
+                            <div class="card-one">
+                                <img
+                                    class="image-card-one img-fluid"
+                                    width="433"
+                                    src="./img/code.svg"
+                                    alt="launch"
+                                />
+                                <h1 class="header-card-one">
+                                    Who am I actually?
+                                </h1>
+                                <p class="paragraph-card-one">
+                                    For now I live in Cracov, Poland. I study
+                                    Computer Science on Jagiellonian University.
+                                    I've started programming when I was 16 and
+                                    this passion survived to this day. I used to
+                                    build things from scratch, now I do so, but
+                                    using programming languages. I love take
+                                    apart things and check out how they build.
+                                </p>
+                                <a class="move link-card-one" href="#third"
+                                    >Click for More
+                                    <i class="fas fa-arrow-right"></i
+                                ></a>
+                            </div>
+                        </div>
+                        <div
+                            data-aos-duration="600"
+                            data-aos-offset="400"
+                            data-aos="flip-down"
+                            class="col-12 col-lg-6"
+                        >
+                            <div class="card-two">
+                                <img
+                                    class="image-card-two img-fluid"
+                                    width="433"
+                                    src="./img/developer.svg"
+                                    alt="deal"
+                                />
+                                <h1 class="header-card-two">
+                                    What am I doing?
+                                </h1>
+                                <p class="paragraph-card-two">
+                                    I love web development. I try to find out
+                                    about every single aspect of this subject. I
+                                    work with backend frameworks such as
+                                    Express, Django, ASP.NET Core and fronted
+                                    such as React. I may spent hours learning
+                                    about new things connected to web and it's
+                                    not boring me.
+                                </p>
+                                <a class="move link-card-two" href="#third"
+                                    >Click for More
+                                    <i class="fas fa-arrow-right"></i
+                                ></a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section class="third">
-            <div class="container">
-                <div class="row">
-                    <div data-aos-offset="200" data-aos="flip-left" class="col-12 col-lg-6 div-third">
-                        <h1 class="header-third">Feel free to check my projecets on Github.</h1>
-                        <p class="paragraph-third">
-                            For now I built some interesting projects using modern apporoach and progressive frameworks and libraries.
-                            To achieve this I learnt some popular programming languages on my own such as Javascript, C#, Python.
-                            I made CRUD backend applications, responsive websites designed using Figma, modern fronted applications, chat apps, backend REST APIs connected
-                            to frontend using Axios and tested with Postman, backend applications with authentication based on JWT or Session Cookies and more! Check some of my projects
-                            on github by clicking button below.
-                        </p>
-                        <a class="link-shiny link-third" href="#">Check Out</a>
-                    </div>
-                    <div data-aos-offset="200" data-aos="flip-right" class="col-12 col-lg-6 my-auto">
-                        <img class="img-third img-fluid" src="./img/undraw_mobile_marketing_iqbr.svg" alt="mobile">
+            <section id="third" class="third">
+                <div class="container">
+                    <div class="row">
+                        <div
+                            data-aos-offset="200"
+                            data-aos="flip-left"
+                            class="col-12 col-lg-6 div-third"
+                        >
+                            <h1 class="header-third">
+                                Feel free to check my projecets on Github.
+                            </h1>
+                            <p class="paragraph-third">
+                                For now I built some interesting projects using
+                                modern apporoach and progressive frameworks and
+                                libraries. To achieve this I learnt some popular
+                                programming languages on my own such as
+                                Javascript, C#, Python. I made CRUD backend
+                                applications, responsive websites designed using
+                                Figma, modern fronted applications, chat apps,
+                                backend REST APIs connected to frontend using
+                                Axios and tested with Postman, backend
+                                applications with authentication based on JWT or
+                                Session Cookies and more! Check some of my
+                                projects on github by clicking button below.
+                            </p>
+                            <a
+                                class="link-shiny link-third"
+                                href="https://github.com/maticoder"
+                                target="_blank"
+                                >Check Out</a
+                            >
+                        </div>
+                        <div
+                            data-aos-offset="200"
+                            data-aos="flip-right"
+                            class="col-12 col-lg-6 my-auto"
+                        >
+                            <img
+                                class="img-third img-fluid"
+                                src="./img/undraw_mobile_marketing_iqbr.svg"
+                                alt="mobile"
+                            />
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section class="fifth">
-            <h1 data-aos="fade-down" class="programming-skills">My programming skills</h1>
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div data-aos-delay="100" data-aos="fade-down" class="flip-card my-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front">
-                                    <img class="img-fluid" src="./img/cards/html-card.svg" alt="html">
-                                    <img class="my-card-sign" src="./img/cards/html-sign.svg" alt="html">
-                                    <div class="my-card-text text-center">
+            <section id="fifth" class="fifth">
+                <h1 data-aos="fade-down" class="programming-skills">
+                    My programming skills
+                </h1>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div
+                                data-aos-delay="100"
+                                data-aos="fade-down"
+                                class="my-card"
+                            >
+                                <!-- flip-card -->
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        <img
+                                            class="img-fluid"
+                                            src="./img/cards/html-card.svg"
+                                            alt="html"
+                                        />
+                                        <img
+                                            class="my-card-sign"
+                                            src="./img/cards/html-sign.svg"
+                                            alt="html"
+                                        />
+                                        <div class="my-card-text text-center">
                                             <h1>HTML</h1>
-                                            <p>The standard markup language for documents designed to be displayed in a web browser.</p>
+                                            <p>
+                                                The standard markup language for
+                                                documents designed to be
+                                                displayed in a web browser.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="flip-card-back html">
+                                        <ul>
+                                            <li>
+                                                I've read HTML & CSS: Design and
+                                                Build Web Sites by Jon Duckett
+                                            </li>
+                                            <li>
+                                                I've read HTML, CSS & JavaScript
+                                                Web Publishing in One Hour a Day
+                                                by Laura Lemay, Rafe Colburn,
+                                                Jennifer Kyrnin
+                                            </li>
+                                            <li>
+                                                I've made a lot of modern and
+                                                responsive websites, designed
+                                                using Figma
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
-                                <div class="flip-card-back html">
-                                    Hello!
-                                </div>
                             </div>
-                        </div>
-                        <div data-aos-delay="100" data-aos="fade-down" class="flip-card my-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front">
-                                    <img class="img-fluid" src="./img/cards/bootstrap-card.svg" alt="html">
-                                    <img class="my-card-sign" src="./img/cards/bootstrap-sign.svg" alt="html">
-                                    <div class="my-card-text text-center">
-                                            <h1>Bootstrap</h1>
-                                            <p>The world’s most popular framework for building responsive, mobile-first sites.</p>
-                                    </div>
-                                </div>
-                                <div class="flip-card-back bootstrap">
-                                    Hello!
-                                </div>
-                            </div>
-                        </div>
-                        <div data-aos-delay="100" data-aos="fade-down" class="flip-card my-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front">
-                                    <img class="img-fluid" src="./img/cards/postman-card.svg" alt="html">
-                                    <img class="my-card-sign" src="./img/cards/postman-sign.svg" alt="html">
-                                    <div class="my-card-text text-center">
-                                            <h1>Postman</h1>
-                                            <p>Manage all of your organization's APIs</p>
-                                    </div>
-                                </div>
-                                <div class="flip-card-back postman">
-                                    Hello!
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div data-aos-delay="300" data-aos="fade-down" class="flip-card my-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front">
-                                    <img class="img-fluid" src="./img/cards/css-card.svg" alt="html">
-                                    <img class="my-card-sign" src="./img/cards/css-sign.svg" alt="html">
-                                    <div class="my-card-text text-center">
-                                            <h1>CSS</h1>
-                                            <p>A style sheet language used for describing the presentation of a document</p>
-                                    </div>
-                                </div>
-                                <div class="flip-card-back css">
-                                    Hello!
-                                </div>
-                            </div>
-                        </div>
-                        <div data-aos-delay="300" data-aos="fade-down" class="flip-card my-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front">
-                                    <img class="img-fluid" src="./img/cards/graphql-card.svg" alt="html">
-                                    <img class="my-card-sign" src="./img/cards/graphql-sign.svg" alt="html">
-                                    <div class="my-card-text text-center">
-                                            <h1>GraphQL</h1>
-                                            <p>A query language for APIs and a runtime for fulfilling those queries with your existing data.</p>
-                                    </div>
-                                </div>
-                                <div class="flip-card-back graphql">
-                                    Hello!
-                                </div>
-                            </div>
-                        </div>
-                        <div data-aos-delay="300" data-aos="fade-down" class="flip-card my-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front">
-                                    <img class="img-fluid" src="./img/cards/mongodb-card.svg" alt="html">
-                                    <img class="my-card-sign" src="./img/cards/mongodb-sign.svg" alt="html">
-                                    <div class="my-card-text text-center">
-                                            <h1>MongoDB</h1>
-                                            <p>The database for modern applications</p>
-                                    </div>
-                                </div>
-                                <div class="flip-card-back mongodb">
-                                    Hello!
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div data-aos-delay="500" data-aos="fade-down" class="flip-card my-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front">
-                                    <img class="img-fluid" src="./img/cards/javascript-card.svg" alt="html">
-                                    <img class="my-card-sign" src="./img/cards/javascript-sign.svg" alt="html">
-                                    <div class="my-card-text text-center">
-                                            <h1>Javascript</h1>
-                                            <p>A high-level, interpreted scripting language</p>
-                                    </div>
-                                </div>
-                                <div class="flip-card-back javascript">
-                                    Hello!
-                                </div>
-                            </div>
-                        </div>
-                        <div data-aos-delay="500" data-aos="fade-down" class="flip-card my-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front">
-                                    <img class="img-fluid" src="./img/cards/react-card.svg" alt="html">
-                                    <img class="my-card-sign" src="./img/cards/react-sign.svg" alt="html">
-                                    <div class="my-card-text text-center">
+                            <div
+                                data-aos-delay="500"
+                                data-aos="fade-down"
+                                class="my-card"
+                            >
+                                <!-- flip-card -->
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        <img
+                                            class="img-fluid"
+                                            src="./img/cards/react-card.svg"
+                                            alt="html"
+                                        />
+                                        <img
+                                            class="my-card-sign"
+                                            src="./img/cards/react-sign.svg"
+                                            alt="html"
+                                        />
+                                        <div class="my-card-text text-center">
                                             <h1>React</h1>
-                                            <p>A JavaScript library for building user interfaces</p>
+                                            <p>
+                                                A JavaScript library for
+                                                building user interfaces
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="flip-card-back react">
+                                        Hello!
                                     </div>
                                 </div>
-                                <div class="flip-card-back react">
-                                    Hello!
+                            </div>
+                            <div
+                                data-aos-delay="500"
+                                data-aos="fade-down"
+                                class="my-card"
+                            >
+                                <!-- flip-card -->
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        <img
+                                            class="img-fluid"
+                                            src="./img/cards/express-card.svg"
+                                            alt="html"
+                                        />
+                                        <img
+                                            class="my-card-sign"
+                                            src="./img/cards/express-sign.svg"
+                                            alt="html"
+                                        />
+                                        <div class="my-card-text text-center">
+                                            <h1>ExpressJS</h1>
+                                            <p>
+                                                Fast, unopinionated, minimalist
+                                                web framework for Node.js
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="flip-card-back express">
+                                        Hello!
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div data-aos-delay="500" data-aos="fade-down" class="flip-card my-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front">
-                                    <img class="img-fluid" src="./img/cards/express-card.svg" alt="html">
-                                    <img class="my-card-sign" src="./img/cards/express-sign.svg" alt="html">
-                                    <div class="my-card-text text-center">
-                                            <h1>ExpressJS</h1>
-                                            <p>Fast, unopinionated, minimalist web framework for Node.js</p>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div
+                                data-aos-delay="300"
+                                data-aos="fade-down"
+                                class="my-card"
+                            >
+                                <!-- flip-card -->
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        <img
+                                            class="img-fluid"
+                                            src="./img/cards/css-card.svg"
+                                            alt="html"
+                                        />
+                                        <img
+                                            class="my-card-sign"
+                                            src="./img/cards/css-sign.svg"
+                                            alt="html"
+                                        />
+                                        <div class="my-card-text text-center">
+                                            <h1>CSS</h1>
+                                            <p>
+                                                A style sheet language used for
+                                                describing the presentation of a
+                                                document
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="flip-card-back css">
+                                        <ul>
+                                            <li>
+                                                I have a great knowledge about
+                                                CSS
+                                            </li>
+                                            <li>
+                                                I know a lot of CSS libraries
+                                            </li>
+                                            <li>I have learen SASS as well</li>
+                                        </ul>
                                     </div>
                                 </div>
-                                <div class="flip-card-back express">
-                                    Hello!
+                            </div>
+                            <div
+                                data-aos-delay="300"
+                                data-aos="fade-down"
+                                class="my-card"
+                            >
+                                <!-- flip-card -->
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        <img
+                                            class="img-fluid"
+                                            src="./img/cards/graphql-card.svg"
+                                            alt="html"
+                                        />
+                                        <img
+                                            class="my-card-sign"
+                                            src="./img/cards/graphql-sign.svg"
+                                            alt="html"
+                                        />
+                                        <div class="my-card-text text-center">
+                                            <h1>GraphQL</h1>
+                                            <p>
+                                                A query language for APIs and a
+                                                runtime for fulfilling those
+                                                queries with your existing data.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="flip-card-back graphql">
+                                        Hello!
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                data-aos-delay="300"
+                                data-aos="fade-down"
+                                class="my-card"
+                            >
+                                <!-- flip-card -->
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        <img
+                                            class="img-fluid"
+                                            src="./img/cards/mongodb-card.svg"
+                                            alt="html"
+                                        />
+                                        <img
+                                            class="my-card-sign"
+                                            src="./img/cards/mongodb-sign.svg"
+                                            alt="html"
+                                        />
+                                        <div class="my-card-text text-center">
+                                            <h1>MongoDB</h1>
+                                            <p>
+                                                The database for modern
+                                                applications
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="flip-card-back mongodb">
+                                        Hello!
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div
+                                data-aos-delay="500"
+                                data-aos="fade-down"
+                                class="my-card"
+                            >
+                                <!-- flip-card -->
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        <img
+                                            class="img-fluid"
+                                            src="./img/cards/javascript-card.svg"
+                                            alt="html"
+                                        />
+                                        <img
+                                            class="my-card-sign"
+                                            src="./img/cards/javascript-sign.svg"
+                                            alt="html"
+                                        />
+                                        <div class="my-card-text text-center">
+                                            <h1>Javascript</h1>
+                                            <p>
+                                                A high-level, interpreted
+                                                scripting language
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="flip-card-back javascript">
+                                        Hello!
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                data-aos-delay="100"
+                                data-aos="fade-down"
+                                class="my-card"
+                            >
+                                <!-- flip-card -->
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        <img
+                                            class="img-fluid"
+                                            src="./img/cards/bootstrap-card.svg"
+                                            alt="html"
+                                        />
+                                        <img
+                                            class="my-card-sign"
+                                            src="./img/cards/bootstrap-sign.svg"
+                                            alt="html"
+                                        />
+                                        <div class="my-card-text text-center">
+                                            <h1>Bootstrap</h1>
+                                            <p>
+                                                The world’s most popular
+                                                framework for building
+                                                responsive, mobile-first sites.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="flip-card-back bootstrap">
+                                        Hello!
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                data-aos-delay="100"
+                                data-aos="fade-down"
+                                class="my-card"
+                            >
+                                <!-- flip-card -->
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        <img
+                                            class="img-fluid"
+                                            src="./img/cards/postman-card.svg"
+                                            alt="html"
+                                        />
+                                        <img
+                                            class="my-card-sign"
+                                            src="./img/cards/postman-sign.svg"
+                                            alt="html"
+                                        />
+                                        <div class="my-card-text text-center">
+                                            <h1>Postman</h1>
+                                            <p>
+                                                Manage all of your
+                                                organization's APIs
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="flip-card-back postman">
+                                        Hello!
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section class="fourth">
+            <section id="fourth" class="fourth">
+                <div class="container">
+                    <div class="row">
+                        <div
+                            data-aos-duration="700"
+                            data-aos-offset="100"
+                            data-aos="zoom-in-right"
+                            class="col-12 col-lg-6"
+                        >
+                            <img
+                                class="image-fourth img-fluid"
+                                src="./img/undraw_messaging_uok8_different.svg"
+                                alt="messaging"
+                            />
+                        </div>
+                        <div
+                            data-aos-duration="700"
+                            data-aos-offset="100"
+                            data-aos="zoom-in-left"
+                            class="col-12 col-lg-6 div-fourth"
+                        >
+                            <h1 class="header-fourth">
+                                Give me a chance and contact me.
+                            </h1>
+                            <p class="paragraph-fourth">
+                                If you have any additional questions send me an
+                                email. Let me also know if you wanna hire me as
+                                a developer. I have no experience with
+                                professionaly work in great company yet, but I
+                                learn very fast and I'm so exiceted to find my
+                                first opportunity to start developer job.
+                            </p>
+                            <a
+                                class="link-fourth link-shiny"
+                                href="mailto:matikcoder@gmail.com"
+                                >Contact me</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer data-aos="fade-down" class="page-footer font-small blue pt-4">
             <div class="container">
                 <div class="row">
-                    <div data-aos-duration="700" data-aos-offset="100" data-aos="zoom-in-right" class="col-12 col-lg-6">
-                        <img class="image-fourth img-fluid" src="./img/undraw_messaging_uok8_different.svg" alt="messaging">
-                    </div>
-                    <div data-aos-duration="700" data-aos-offset="100" data-aos="zoom-in-left" class="col-12 col-lg-6 div-fourth">
-                        <h1 class="header-fourth">Give me a chance and contact me.</h1>
-                        <p class="paragraph-fourth">
-                            If you have any additional questions send me an email. 
-                            Let me also know if you wanna hire me as a developer.
-                            I have no experience with professionaly work in great company yet,
-                            but I learn very fast and I'm so exiceted to find my first
-                            opportunity to start developer job.
+                    <div class="col-12 col-md-6">
+                        <p class="footer-brand footer-header">Portfolio</p>
+                        <p class="footer-link">
+                            This website has been designed and made from scratch
+                            by me. Drawnings has been provided by unDraw.
                         </p>
-                        <a class="link-fourth link-shiny" href="#">Contact me</a>
+                        <br />
+                        <p class="footer-link">© All rights reserved.</p>
+                    </div>
+                    <div class="ml-auto col-12 col-md-2">
+                        <p class="footer-header">Navigation</p>
+                        <p class="move footer-link">
+                            <a href="#first">Home</a>
+                        </p>
+                        <p class="move footer-link">
+                            <a href="#second">About</a>
+                        </p>
+                        <p class="move footer-link">
+                            <a href="#third">Projects</a>
+                        </p>
+                        <p class="move footer-link">
+                            <a href="#fifth">Skills</a>
+                        </p>
+                        <p class="move footer-link">
+                            <a href="#fourth">Contact</a>
+                        </p>
                     </div>
                 </div>
             </div>
-        </section>
-    </main>
+        </footer>
 
-    <footer data-aos="fade-down" class="page-footer font-small blue pt-4">
-        <div class="container">
-            <div class="row">
-            <div class="col-12 col-md-6">
-                <p class="footer-brand footer-header">Portfolio</p>
-                <p class="footer-link">This website has been designed and made from scratch by me. Drawnings has been provided by unDraw.</p>
-                <br />
-                <p class="footer-link">© All rights reserved.</p>
-            </div>
-            <div class="ml-auto col-12 col-md-2">
-                <p class="footer-header">Navigation</p>
-                <p class="move footer-link"><a href="#">Home</a></p>
-                <p class="move footer-link"><a href="#">About</a></p>
-                <p class="move footer-link"><a href="#">Projects</a></p>
-                <p class="move footer-link"><a href="#">Skills</a></p>
-                <p class="move footer-link"><a href="#">Contact</a></p>
-            </div>
-            </div>
-        </div>
-    </footer>
-
-    <script src="./js/53a9a3d1f7.js"></script>
-    <script src="./js/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="./js/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="./js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="./script.js"></script>
-</body>
+        <script src="./js/53a9a3d1f7.js"></script>
+        <script
+            src="./js/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="./js/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="./js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"
+        ></script>
+        <script src="./script.js"></script>
+    </body>
 </html>
